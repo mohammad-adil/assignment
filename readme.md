@@ -19,6 +19,14 @@ This is a directory created for the assignment that was given by Insuremine as a
 npm i
 ```
 
+## Run
+
+```
+# To Run the Project you can use any of the following:
+1. npm run dev
+2. npm start
+```
+
 ## APIs
 
 > I have made the following APIs as per the requirement asked:
