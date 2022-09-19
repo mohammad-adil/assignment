@@ -1,19 +1,75 @@
-Uploads --
-GET /upload/:filePath  -- inserts data from csv into DB. Hardcoded filepath internally.
+# Assigment by Insuredmine
 
+This is a directory created for the assignment that was given by Insuremine as a part of Selection process.
 
-Policy --
+## Modules
 
-GET /policy -- returns all Aggregated policies 
+*User
+*LOB
+*Policy
+*Carrier
+*message
+*upload
+\*agent
 
-GET /policy/getByUser/:userName -- returns Policy Info by username
+## Installation
 
+```
+# To install the pakages run:
+npm i
+```
 
-User --
+## APIs
 
-GET /user/policies -- returns all users with their policies
+> I have made the following APIs as per the requirement asked:
 
+> > 1. Upload Date to Database:
 
-Message --
+```
+[POST]localhost:port/upload
+E.G http://localhost:7000/upload
+```
 
-POST /message -- takes message and date time in DD-MM-YYYYTHH:mm:SS format and inserts said message at specified date time
+- The API need to have a csv file as attachment with keyword 'upload'
+  > > 2.  Add Message/Schedule a Message:
+
+```
+[POST]localhost:port/message
+E.G http://localhost:7000/message
+```
+
+- The API has two body parameters:
+  - message.
+  - scheduleDate.
+
+> > 3.  Get All policies:
+
+```
+[GET]localhost:port/policy
+E.G http://localhost:7000/policy
+```
+
+> > 4.  Get Policy by UserNamee:
+
+```
+[GET]localhost:port/policy/getByUser/<<username>>
+E.G http://localhost:7000/policy/getByUser/Carie Merlos
+```
+
+> > 5.  Upload Date to Database:
+
+```
+[GET]localhost:port/policy/getByUser/<<username>>
+E.G http://localhost:7000/policy/getByUser/Carie Merlos
+```
+
+> > 6.  Get All users with policies:
+
+```
+[GET]localhost:port/user/policies
+E.G http://localhost:7000/user/policies
+```
+
+## Further the Postman Collection can be imported from the URL below:
+
+URL: https://documenter.getpostman.com/view/16423791/2s7YtWDDUL
