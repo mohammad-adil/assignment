@@ -81,3 +81,6 @@ E.G http://localhost:7000/user/policies
 ## Further the Postman Collection can be imported from the URL below:
 
 URL: https://documenter.getpostman.com/view/16423791/2s7YtWDDUL
+
+## By default I have disabled the server close after 70 % utalization.
+>> To enable uncomment the Line N0 21 in Server.js
