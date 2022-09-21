@@ -64,14 +64,8 @@ E.G http://localhost:7000/policy
 E.G http://localhost:7000/policy/getByUser/Carie Merlos
 ```
 
-> > 5.  Upload Date to Database:
 
-```
-[GET]localhost:port/policy/getByUser/<<username>>
-E.G http://localhost:7000/policy/getByUser/Carie Merlos
-```
-
-> > 6.  Get All users with policies:
+> > 5.  Get All users with policies:
 
 ```
 [GET]localhost:port/user/policies
